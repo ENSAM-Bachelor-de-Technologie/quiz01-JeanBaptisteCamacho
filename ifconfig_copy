@@ -1,0 +1,25 @@
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether b8:27:eb:de:53:76  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Boucle locale)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.43.200  netmask 255.255.255.0  broadcast 192.168.43.255
+        inet6 fe80::e557:ada0:b915:9c71  prefixlen 64  scopeid 0x20<link>
+        ether b8:27:eb:8b:06:23  txqueuelen 1000  (Ethernet)
+        RX packets 357  bytes 301992 (294.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 281  bytes 31151 (30.4 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
